@@ -58,26 +58,6 @@ const TweetList = () => {
     //assign relevant tweets to the relevant users based on who they follow 
     const produceTweetList = (tweets, users) => {
         let tempTweetDisplayList = [];
-
-        // for(let keyUser in users) {
-        //     let user = users[keyUser].user;
-        //     console.log(user);
-        //     let tempJsonObj = {'user': user, 'tweetList': [], 'followsAction': users[keyUser].follows}
-        //     //grab all the relevant tweets from the users the person follows and assign it to them
-        //     for(let keyTweet in tweets) {
-        //         let tweeter =  tweets[keyTweet].user
-        
-        //         //check if user follows the creator of the tweet or is the person who created the tweet
-        //         if(tempJsonObj.followsAction) {
-        //             if(tempJsonObj.followsAction.includes(tweeter) || tempJsonObj.user === tweeter) {
-        //                 tempJsonObj.tweetList.push(tweets[keyTweet]);
-        //                 console.log("\t@"+tweets[keyTweet].user+": "+tweets[keyTweet].tweet);
-        //             }
-        //         }    
-        //     }
-
-        //     tempTweetDisplayList.push(tempJsonObj);
-        // }
         
         users.forEach(elemUser => {
             
