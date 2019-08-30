@@ -1,0 +1,8 @@
+.tweet-item {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.tweet-item .tweet {
+    padding-left: 50px;
+}
