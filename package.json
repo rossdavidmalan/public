@@ -12,7 +12,7 @@
     "react-test-renderer": "^16.9.0"
   },
   "scripts": {
-    "build": "babel src/ -d lib/",
+    "build": "react-scripts build",
     "prepublish": "npm run build",
     "start": "react-scripts start",
     "test": "react-scripts test",
